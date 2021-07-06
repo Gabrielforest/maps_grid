@@ -1,0 +1,6 @@
+name: "Maps"
+navbar:
+  title: "Amazon nut - models"
+  left:
+    - text: ""
+      href: index.html
