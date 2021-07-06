@@ -565,6 +565,8 @@ leaflet_grid
 
 ### Suitability Map - Geographical Filtering WorldClim 2.1 LAM (CMIP6)
 
+AUC = 0.88
+
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 presence_2_5 <- raster("./vif_vars_geog/geog 2.5 vif no terrapreta lam/ensembles/presence/Bertholletia excelsa_present.tif")
 presence_2_5[presence_2_5 == 0] <- NA
@@ -653,6 +655,8 @@ leaflet_grid
 
 
 ### Suitability Map - Geographical Filtering WorldClim 1.4 LAM (CMIP5)
+
+AUC = 0.88
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 
@@ -746,7 +750,7 @@ leaflet_grid
 
 ### Suitability Map - Environmental Filtering WorldClim 2.1 LAM (CMIP6)
 
-
+AUC = 0.90
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 presence_2_5_ <- raster("./vif_vars_env/env 2.5 vif no terrapreta lam/ensembles/presence/Bertholletia excelsa_present.tif")
@@ -830,6 +834,8 @@ leaflet_grid
 
 
 ### Suitability Map - Environmental Filtering WorldClim 1.4 LAM (CMIP5)
+
+AUC = 0.90
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 presence_2_5 <- raster("./vif_vars_env/env 2.5 vif no terrapreta LAM cmip5/ensembles/presence/Bertholletia excelsa_present.tif")
